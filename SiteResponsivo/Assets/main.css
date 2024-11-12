@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #e8a249;
+
+}
+
+aside {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #e6ddbc;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  
+}
+
+main {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #b3aca4;
+  padding: 1rem;
+  
+}
+
+footer {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #575e55;
+
+}
+
